@@ -2,6 +2,7 @@
   "name": "mgm-react-router-7",
   "private": true,
   "type": "module",
+  "homepage": "https://magmagmary.github.io/mgm-react-router-7",
   "scripts": {
     "start": "react-router dev",
     "build": "cross-env NODE_ENV=production react-router build",
