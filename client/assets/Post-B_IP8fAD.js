@@ -1,0 +1,1 @@
+import{w as e}from"./with-props-BrnPQaVP.js";import{j as s}from"./chunk-K6AXKMTT-Br6w6dk1.js";const o=({loaderData:t})=>s.jsx("div",{className:"bg-slate-300 flex items-center justify-center h-svh w-svw",children:s.jsxs("h1",{className:"text-3xl font-bold",children:["post Id: ",t.id]})}),i=e(o);export{i as default};
