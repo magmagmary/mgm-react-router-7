@@ -2,7 +2,7 @@ import React from 'react';
 import type { Route } from '../+types/Post';
 import { Form } from 'react-router';
 
-export const clientLoader = async ({ params }: Route.LoaderArgs) => {
+export const clientLoader = async ({ params }: Route.ClientLoaderArgs) => {
     const { id } = params;
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
     const data = await res.json();
@@ -10,7 +10,7 @@ export const clientLoader = async ({ params }: Route.LoaderArgs) => {
     return { id, data };
 };
 
-export const clientAction = async ({ params }: Route.LoaderArgs) => {
+export const clientAction = async ({ params }: Route.ClientActionArgs) => {
     const { id } = params;
 
     await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
