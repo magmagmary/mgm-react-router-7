@@ -11,27 +11,27 @@
     "deploy": "yarn build && gh-pages -d build"
   },
   "dependencies": {
-    "@react-router/node": "^7.1.1",
-    "@react-router/serve": "^7.1.1",
-    "isbot": "^5.1.17",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router": "^7.1.1"
+    "@react-router/node": "7.1.1",
+    "@react-router/serve": "7.1.1",
+    "isbot": "5.1.21",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-router": "7.1.1"
   },
   "devDependencies": {
-    "@react-router/dev": "^7.1.1",
-    "@types/gh-pages": "^6",
-    "@types/node": "^20",
+    "@react-router/dev": "7.1.1",
+    "@types/gh-pages": "6.1.0",
+    "@types/node": "20.17.12",
     "@types/react": "19.0.4",
     "@types/react-dom": "19.0.2",
-    "autoprefixer": "^10.4.20",
-    "cross-env": "^7.0.3",
-    "gh-pages": "^6.3.0",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.16",
-    "typescript": "^5.7.2",
-    "vite": "^5.4.11",
-    "vite-tsconfig-paths": "^5.1.4"
+    "autoprefixer": "10.4.20",
+    "cross-env": "7.0.3",
+    "gh-pages": "6.3.0",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.3",
+    "vite": "5.4.11",
+    "vite-tsconfig-paths": "5.1.4"
   },
   "packageManager": "yarn@4.6.0"
 }
