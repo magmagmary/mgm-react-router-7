@@ -11,15 +11,15 @@
     "deploy": "yarn build && gh-pages -d build"
   },
   "dependencies": {
-    "@react-router/node": "7.1.1",
-    "@react-router/serve": "7.1.1",
+    "@react-router/node": "7.1.2",
+    "@react-router/serve": "7.1.2",
     "isbot": "5.1.21",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-router": "7.1.1"
+    "react-router": "7.1.2"
   },
   "devDependencies": {
-    "@react-router/dev": "7.1.1",
+    "@react-router/dev": "7.1.2",
     "@types/gh-pages": "6.1.0",
     "@types/node": "22.10.5",
     "@types/react": "19.0.5",
