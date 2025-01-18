@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@react-router/node", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.2"],\
           ["@react-router/serve", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.2"],\
           ["@types/gh-pages", "npm:6.1.0"],\
-          ["@types/node", "npm:22.10.5"],\
+          ["@types/node", "npm:22.10.7"],\
           ["@types/react", "npm:19.0.7"],\
           ["@types/react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.3"],\
           ["autoprefixer", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:10.4.20"],\
@@ -1320,10 +1320,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:22.10.5", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-22.10.5-cd9f5f929b-10c0.zip/node_modules/@types/node/",\
+      ["npm:22.10.7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-22.10.7-d71170a7fa-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.10.5"],\
+          ["@types/node", "npm:22.10.7"],\
           ["undici-types", "npm:6.20.0"]\
         ],\
         "linkType": "HARD"\
@@ -3134,7 +3134,7 @@ const RAW_RUNTIME_STATE =
           ["@react-router/node", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.2"],\
           ["@react-router/serve", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.2"],\
           ["@types/gh-pages", "npm:6.1.0"],\
-          ["@types/node", "npm:22.10.5"],\
+          ["@types/node", "npm:22.10.7"],\
           ["@types/react", "npm:19.0.7"],\
           ["@types/react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.3"],\
           ["autoprefixer", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:10.4.20"],\
@@ -5025,7 +5025,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.10.5"],\
+          ["@types/node", "npm:22.10.7"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
