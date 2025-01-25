@@ -1044,7 +1044,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/vite@npm:^4.0.0":
+"@tailwindcss/vite@npm:4.0.0":
   version: 4.0.0
   resolution: "@tailwindcss/vite@npm:4.0.0"
   dependencies:
@@ -2692,7 +2692,7 @@ __metadata:
     "@react-router/dev": "npm:7.1.3"
     "@react-router/node": "npm:7.1.3"
     "@react-router/serve": "npm:7.1.3"
-    "@tailwindcss/vite": "npm:^4.0.0"
+    "@tailwindcss/vite": "npm:4.0.0"
     "@types/gh-pages": "npm:6.1.0"
     "@types/node": "npm:22.10.10"
     "@types/react": "npm:19.0.8"
