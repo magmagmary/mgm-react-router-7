@@ -1,7 +1,7 @@
 import { jsx, jsxs } from "react/jsx-runtime";
 import { PassThrough } from "node:stream";
 import { createReadableStreamFromReadable } from "@react-router/node";
-import { ServerRouter, useParams, useLoaderData, useActionData, useMatches, useRouteError, Meta, Links, ScrollRestoration, Scripts, Outlet, isRouteErrorResponse, Link, useNavigate } from "react-router";
+import { ServerRouter, useParams, useLoaderData, useActionData, useMatches, useRouteError, Meta, Links, ScrollRestoration, Scripts, Outlet, isRouteErrorResponse, Link, useFetcher, useNavigate } from "react-router";
 import { isbot } from "isbot";
 import { renderToPipeableStream } from "react-dom/server";
 import { createElement } from "react";
@@ -68,7 +68,7 @@ function withErrorBoundaryProps(ErrorBoundary3) {
     return createElement(ErrorBoundary3, props);
   };
 }
-const stylesheet = "/assets/app-Dsi5I23B.css";
+const stylesheet = "/assets/app-CcBLilCd.css";
 const links = () => [{
   rel: "preconnect",
   href: "https://fonts.googleapis.com"
@@ -193,35 +193,78 @@ const route3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   __proto__: null,
   default: About$1
 }, Symbol.toStringTag, { value: "Module" }));
-const loader$1 = async ({
+const clientLoader = async ({
   params
 }) => {
   const {
     id
   } = params;
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+  const data = await res.json();
   return {
-    id
+    id,
+    data
   };
 };
-const action = async () => {
+const clientAction = async ({
+  params
+}) => {
+  const {
+    id
+  } = params;
+  try {
+    await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
+      method: "DELETE"
+    });
+    return {
+      isDeleted: true
+    };
+  } catch (error) {
+    return {
+      isDeleted: false
+    };
+  }
 };
 const Post = ({
   loaderData
 }) => {
+  const fetcher = useFetcher();
+  const {
+    isDeleted
+  } = fetcher.data || {};
   return /* @__PURE__ */ jsx("div", {
-    className: "bg-slate-300 flex items-center justify-center h-svh w-svw",
-    children: /* @__PURE__ */ jsxs("h1", {
-      className: "text-3xl font-bold",
-      children: ["post Id: ", loaderData.id]
+    className: "bg-slate-300 flex  justify-center h-svh w-svw",
+    children: /* @__PURE__ */ jsxs("div", {
+      className: "mt-10 px-10",
+      children: [/* @__PURE__ */ jsxs("h1", {
+        className: "text-3xl font-bold",
+        children: ["post Id: ", loaderData.id]
+      }), !isDeleted && /* @__PURE__ */ jsxs("div", {
+        className: "bg-white p-5 mt-5",
+        children: [/* @__PURE__ */ jsx("h2", {
+          className: "text-xl font-bold",
+          children: loaderData.data.title
+        }), /* @__PURE__ */ jsx("p", {
+          className: "text-lg",
+          children: loaderData.data.body
+        })]
+      }), /* @__PURE__ */ jsx(fetcher.Form, {
+        method: "delete",
+        children: /* @__PURE__ */ jsx("button", {
+          type: "submit",
+          className: "bg-red-500 text-white p-2 mt-5",
+          children: "Delete"
+        })
+      })]
     })
   });
 };
 const Post$1 = withComponentProps(Post);
 const route4 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  action,
-  default: Post$1,
-  loader: loader$1
+  clientAction,
+  clientLoader,
+  default: Post$1
 }, Symbol.toStringTag, { value: "Module" }));
 const products = [{
   id: 1,
@@ -334,7 +377,7 @@ const route6 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: ProductInfo$1,
   loader
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-BkN_BLv9.js", "imports": ["/assets/chunk-K6AXKMTT-Br6w6dk1.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-BDO8SmCq.js", "imports": ["/assets/chunk-K6AXKMTT-Br6w6dk1.js", "/assets/with-props-BrnPQaVP.js"], "css": [] }, "layout/AppLayout": { "id": "layout/AppLayout", "parentId": "root", "path": void 0, "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/AppLayout-CEzSsKUa.js", "imports": ["/assets/with-props-BrnPQaVP.js", "/assets/chunk-K6AXKMTT-Br6w6dk1.js"], "css": [] }, "routes/home/Home": { "id": "routes/home/Home", "parentId": "layout/AppLayout", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/Home-BfgBPrJP.js", "imports": ["/assets/with-props-BrnPQaVP.js", "/assets/chunk-K6AXKMTT-Br6w6dk1.js"], "css": [] }, "routes/about/About": { "id": "routes/about/About", "parentId": "layout/AppLayout", "path": "about", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/About-BQzlYRTa.js", "imports": ["/assets/with-props-BrnPQaVP.js", "/assets/chunk-K6AXKMTT-Br6w6dk1.js"], "css": [] }, "routes/post/Post": { "id": "routes/post/Post", "parentId": "layout/AppLayout", "path": "post/:id", "index": void 0, "caseSensitive": void 0, "hasAction": true, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/Post-B_IP8fAD.js", "imports": ["/assets/with-props-BrnPQaVP.js", "/assets/chunk-K6AXKMTT-Br6w6dk1.js"], "css": [] }, "routes/products/Products": { "id": "routes/products/Products", "parentId": "layout/AppLayout", "path": "products", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/Products-C-sBYnW8.js", "imports": ["/assets/Products-BFHyhp2u.js", "/assets/with-props-BrnPQaVP.js", "/assets/chunk-K6AXKMTT-Br6w6dk1.js"], "css": [] }, "routes/products/ProductInfo": { "id": "routes/products/ProductInfo", "parentId": "routes/products/Products", "path": "info/:id", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/ProductInfo-Cma2yqRm.js", "imports": ["/assets/with-props-BrnPQaVP.js", "/assets/chunk-K6AXKMTT-Br6w6dk1.js", "/assets/Products-BFHyhp2u.js"], "css": [] } }, "url": "/assets/manifest-ad483a9d.js", "version": "ad483a9d" };
+const serverManifest = { "entry": { "module": "/assets/entry.client-Z_B7-Y4G.js", "imports": ["/assets/chunk-SYFQ2XB5-nfyS5gDv.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": true, "module": "/assets/root-JhaFAOnp.js", "imports": ["/assets/chunk-SYFQ2XB5-nfyS5gDv.js", "/assets/with-props-Cx_4UPKc.js"], "css": [] }, "layout/AppLayout": { "id": "layout/AppLayout", "parentId": "root", "path": void 0, "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/AppLayout-CovpNDff.js", "imports": ["/assets/with-props-Cx_4UPKc.js", "/assets/chunk-SYFQ2XB5-nfyS5gDv.js"], "css": [] }, "routes/home/Home": { "id": "routes/home/Home", "parentId": "layout/AppLayout", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/Home-BqJ4LwWL.js", "imports": ["/assets/with-props-Cx_4UPKc.js", "/assets/chunk-SYFQ2XB5-nfyS5gDv.js"], "css": [] }, "routes/about/About": { "id": "routes/about/About", "parentId": "layout/AppLayout", "path": "about", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/About-DXYU2o5x.js", "imports": ["/assets/with-props-Cx_4UPKc.js", "/assets/chunk-SYFQ2XB5-nfyS5gDv.js"], "css": [] }, "routes/post/Post": { "id": "routes/post/Post", "parentId": "layout/AppLayout", "path": "post/:id", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": true, "hasClientLoader": true, "hasErrorBoundary": false, "module": "/assets/Post-dHF_ld13.js", "imports": ["/assets/with-props-Cx_4UPKc.js", "/assets/chunk-SYFQ2XB5-nfyS5gDv.js"], "css": [] }, "routes/products/Products": { "id": "routes/products/Products", "parentId": "layout/AppLayout", "path": "products", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/Products-C-SG-t1j.js", "imports": ["/assets/Products-C6UVYHYm.js", "/assets/with-props-Cx_4UPKc.js", "/assets/chunk-SYFQ2XB5-nfyS5gDv.js"], "css": [] }, "routes/products/ProductInfo": { "id": "routes/products/ProductInfo", "parentId": "routes/products/Products", "path": "info/:id", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": true, "hasClientAction": false, "hasClientLoader": false, "hasErrorBoundary": false, "module": "/assets/ProductInfo-CCOE-9ME.js", "imports": ["/assets/with-props-Cx_4UPKc.js", "/assets/chunk-SYFQ2XB5-nfyS5gDv.js", "/assets/Products-C6UVYHYm.js"], "css": [] } }, "url": "/assets/manifest-26845c0a.js", "version": "26845c0a" };
 const assetsBuildDirectory = "build/client";
 const basename = "/";
 const future = { "unstable_optimizeDeps": false };
