@@ -37,7 +37,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.3"],\
           ["cross-env", "npm:7.0.3"],\
           ["gh-pages", "npm:6.3.0"],\
-          ["isbot", "npm:5.1.21"],\
+          ["isbot", "npm:5.1.22"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.0"],\
           ["react-router", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
@@ -2907,10 +2907,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["isbot", [\
-      ["npm:5.1.21", {\
-        "packageLocation": "../../../../cache/others/berry/cache/isbot-npm-5.1.21-f31b56b8ed-10c0.zip/node_modules/isbot/",\
+      ["npm:5.1.22", {\
+        "packageLocation": "../../../../cache/others/berry/cache/isbot-npm-5.1.22-f2d73c1656-10c0.zip/node_modules/isbot/",\
         "packageDependencies": [\
-          ["isbot", "npm:5.1.21"]\
+          ["isbot", "npm:5.1.22"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3257,7 +3257,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.3"],\
           ["cross-env", "npm:7.0.3"],\
           ["gh-pages", "npm:6.3.0"],\
-          ["isbot", "npm:5.1.21"],\
+          ["isbot", "npm:5.1.22"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.0"],\
           ["react-router", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
