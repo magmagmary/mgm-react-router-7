@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@react-router/dev", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
           ["@react-router/node", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
           ["@react-router/serve", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
-          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.0"],\
+          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.6"],\
           ["@types/gh-pages", "npm:6.1.0"],\
           ["@types/node", "npm:22.10.10"],\
           ["@types/react", "npm:19.0.8"],\
@@ -41,7 +41,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.0"],\
           ["react-router", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
-          ["tailwindcss", "npm:4.0.0"],\
+          ["tailwindcss", "npm:4.0.6"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
           ["vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:6.0.11"],\
           ["vite-tsconfig-paths", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:5.1.4"]\
@@ -1283,153 +1283,153 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@tailwindcss/node", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@tailwindcss-node-npm-4.0.0-af5296bc89-10c0.zip/node_modules/@tailwindcss/node/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@tailwindcss-node-npm-4.0.6-90c72cfd2c-10c0.zip/node_modules/@tailwindcss/node/",\
         "packageDependencies": [\
-          ["@tailwindcss/node", "npm:4.0.0"],\
+          ["@tailwindcss/node", "npm:4.0.6"],\
           ["enhanced-resolve", "npm:5.18.0"],\
           ["jiti", "npm:2.4.2"],\
-          ["tailwindcss", "npm:4.0.0"]\
+          ["tailwindcss", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@tailwindcss-oxide-npm-4.0.0-5c54a378a2-10c0.zip/node_modules/@tailwindcss/oxide/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@tailwindcss-oxide-npm-4.0.6-2aab382160-10c0.zip/node_modules/@tailwindcss/oxide/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-android-arm64", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-darwin-arm64", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-darwin-x64", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-freebsd-x64", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.0.0"],\
-          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.0.0"]\
+          ["@tailwindcss/oxide", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-android-arm64", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-darwin-arm64", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-darwin-x64", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-freebsd-x64", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.0.6"],\
+          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-android-arm64", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-android-arm64-npm-4.0.0-590e12c2d6/node_modules/@tailwindcss/oxide-android-arm64/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-android-arm64-npm-4.0.6-fec111e5a3/node_modules/@tailwindcss/oxide-android-arm64/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-android-arm64", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-android-arm64", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-darwin-arm64", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-arm64-npm-4.0.0-b5fd6b9094/node_modules/@tailwindcss/oxide-darwin-arm64/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-arm64-npm-4.0.6-6157cff64e/node_modules/@tailwindcss/oxide-darwin-arm64/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-darwin-arm64", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-darwin-arm64", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-darwin-x64", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-x64-npm-4.0.0-12c0cf4fb1/node_modules/@tailwindcss/oxide-darwin-x64/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-x64-npm-4.0.6-dd87ec3d1d/node_modules/@tailwindcss/oxide-darwin-x64/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-darwin-x64", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-darwin-x64", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-freebsd-x64", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-freebsd-x64-npm-4.0.0-6a2001f0c4/node_modules/@tailwindcss/oxide-freebsd-x64/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-freebsd-x64-npm-4.0.6-0b59a193e9/node_modules/@tailwindcss/oxide-freebsd-x64/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-freebsd-x64", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-freebsd-x64", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-arm-gnueabihf", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm-gnueabihf-npm-4.0.0-f1cfaf63c7/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm-gnueabihf-npm-4.0.6-aa305787c6/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-arm64-gnu", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-gnu-npm-4.0.0-cd0dd95a30/node_modules/@tailwindcss/oxide-linux-arm64-gnu/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-gnu-npm-4.0.6-b370182d87/node_modules/@tailwindcss/oxide-linux-arm64-gnu/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-arm64-musl", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-musl-npm-4.0.0-20421bba8e/node_modules/@tailwindcss/oxide-linux-arm64-musl/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-musl-npm-4.0.6-669f965985/node_modules/@tailwindcss/oxide-linux-arm64-musl/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-x64-gnu", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-gnu-npm-4.0.0-986d0fd3a7/node_modules/@tailwindcss/oxide-linux-x64-gnu/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-gnu-npm-4.0.6-84115503b1/node_modules/@tailwindcss/oxide-linux-x64-gnu/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-x64-musl", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-musl-npm-4.0.0-5e49ad1616/node_modules/@tailwindcss/oxide-linux-x64-musl/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-musl-npm-4.0.6-c43c9141f6/node_modules/@tailwindcss/oxide-linux-x64-musl/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-win32-arm64-msvc", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-arm64-msvc-npm-4.0.0-949938d7d7/node_modules/@tailwindcss/oxide-win32-arm64-msvc/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-arm64-msvc-npm-4.0.6-ed734381e8/node_modules/@tailwindcss/oxide-win32-arm64-msvc/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-win32-x64-msvc", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-x64-msvc-npm-4.0.0-4a7ecf6832/node_modules/@tailwindcss/oxide-win32-x64-msvc/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-x64-msvc-npm-4.0.6-8a3cf00f86/node_modules/@tailwindcss/oxide-win32-x64-msvc/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.0.0"]\
+          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/vite", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@tailwindcss-vite-npm-4.0.0-67dcf23698-10c0.zip/node_modules/@tailwindcss/vite/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@tailwindcss-vite-npm-4.0.6-d76ce25f58-10c0.zip/node_modules/@tailwindcss/vite/",\
         "packageDependencies": [\
-          ["@tailwindcss/vite", "npm:4.0.0"]\
+          ["@tailwindcss/vite", "npm:4.0.6"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/@tailwindcss-vite-virtual-24406f0d17/5/cache/others/berry/cache/@tailwindcss-vite-npm-4.0.0-67dcf23698-10c0.zip/node_modules/@tailwindcss/vite/",\
+      ["virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.6", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-vite-virtual-bf454fce81/5/cache/others/berry/cache/@tailwindcss-vite-npm-4.0.6-d76ce25f58-10c0.zip/node_modules/@tailwindcss/vite/",\
         "packageDependencies": [\
-          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.0"],\
-          ["@tailwindcss/node", "npm:4.0.0"],\
-          ["@tailwindcss/oxide", "npm:4.0.0"],\
+          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.6"],\
+          ["@tailwindcss/node", "npm:4.0.6"],\
+          ["@tailwindcss/oxide", "npm:4.0.6"],\
           ["@types/vite", null],\
           ["lightningcss", "npm:1.29.1"],\
-          ["tailwindcss", "npm:4.0.0"],\
+          ["tailwindcss", "npm:4.0.6"],\
           ["vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:6.0.11"]\
         ],\
         "packagePeers": [\
@@ -3250,7 +3250,7 @@ const RAW_RUNTIME_STATE =
           ["@react-router/dev", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
           ["@react-router/node", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
           ["@react-router/serve", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
-          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.0"],\
+          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.6"],\
           ["@types/gh-pages", "npm:6.1.0"],\
           ["@types/node", "npm:22.10.10"],\
           ["@types/react", "npm:19.0.8"],\
@@ -3261,7 +3261,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.0"],\
           ["react-router", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
-          ["tailwindcss", "npm:4.0.0"],\
+          ["tailwindcss", "npm:4.0.6"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
           ["vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:6.0.11"],\
           ["vite-tsconfig-paths", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:5.1.4"]\
@@ -4498,10 +4498,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tailwindcss", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/tailwindcss-npm-4.0.0-424e20b2e8-10c0.zip/node_modules/tailwindcss/",\
+      ["npm:4.0.6", {\
+        "packageLocation": "../../../../cache/others/berry/cache/tailwindcss-npm-4.0.6-9cc2bfdf7d-10c0.zip/node_modules/tailwindcss/",\
         "packageDependencies": [\
-          ["tailwindcss", "npm:4.0.0"]\
+          ["tailwindcss", "npm:4.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
