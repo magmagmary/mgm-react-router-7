@@ -30,9 +30,9 @@ const RAW_RUNTIME_STATE =
           ["@react-router/dev", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
           ["@react-router/node", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
           ["@react-router/serve", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
-          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.14"],\
+          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.15"],\
           ["@types/gh-pages", "npm:6.1.0"],\
-          ["@types/node", "npm:22.10.10"],\
+          ["@types/node", "npm:22.13.10"],\
           ["@types/react", "npm:19.0.8"],\
           ["@types/react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.3"],\
           ["cross-env", "npm:7.0.3"],\
@@ -41,7 +41,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.0"],\
           ["react-router", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
-          ["tailwindcss", "npm:4.0.14"],\
+          ["tailwindcss", "npm:4.0.15"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
           ["vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:6.0.11"],\
           ["vite-tsconfig-paths", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:5.1.4"]\
@@ -1283,153 +1283,153 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@tailwindcss/node", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@tailwindcss-node-npm-4.0.14-04862f0e51-10c0.zip/node_modules/@tailwindcss/node/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@tailwindcss-node-npm-4.0.15-9f30927c33-10c0.zip/node_modules/@tailwindcss/node/",\
         "packageDependencies": [\
-          ["@tailwindcss/node", "npm:4.0.14"],\
+          ["@tailwindcss/node", "npm:4.0.15"],\
           ["enhanced-resolve", "npm:5.18.1"],\
           ["jiti", "npm:2.4.2"],\
-          ["tailwindcss", "npm:4.0.14"]\
+          ["tailwindcss", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@tailwindcss-oxide-npm-4.0.14-608aed2e8c-10c0.zip/node_modules/@tailwindcss/oxide/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@tailwindcss-oxide-npm-4.0.15-829ab07106-10c0.zip/node_modules/@tailwindcss/oxide/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-android-arm64", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-darwin-arm64", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-darwin-x64", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-freebsd-x64", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.0.14"],\
-          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.0.14"]\
+          ["@tailwindcss/oxide", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-android-arm64", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-darwin-arm64", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-darwin-x64", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-freebsd-x64", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.0.15"],\
+          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-android-arm64", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-android-arm64-npm-4.0.14-d67336ed0b/node_modules/@tailwindcss/oxide-android-arm64/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-android-arm64-npm-4.0.15-7b012e1021/node_modules/@tailwindcss/oxide-android-arm64/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-android-arm64", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-android-arm64", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-darwin-arm64", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-arm64-npm-4.0.14-d359f4e8d0/node_modules/@tailwindcss/oxide-darwin-arm64/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-arm64-npm-4.0.15-91c972c223/node_modules/@tailwindcss/oxide-darwin-arm64/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-darwin-arm64", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-darwin-arm64", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-darwin-x64", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-x64-npm-4.0.14-5b5dedbc2b/node_modules/@tailwindcss/oxide-darwin-x64/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-darwin-x64-npm-4.0.15-80431a9489/node_modules/@tailwindcss/oxide-darwin-x64/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-darwin-x64", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-darwin-x64", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-freebsd-x64", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-freebsd-x64-npm-4.0.14-cea5cd426d/node_modules/@tailwindcss/oxide-freebsd-x64/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-freebsd-x64-npm-4.0.15-ac4cb7b76f/node_modules/@tailwindcss/oxide-freebsd-x64/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-freebsd-x64", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-freebsd-x64", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-arm-gnueabihf", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm-gnueabihf-npm-4.0.14-3ed51ecbef/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm-gnueabihf-npm-4.0.15-f64102cb81/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-linux-arm-gnueabihf", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-arm64-gnu", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-gnu-npm-4.0.14-2abf23a465/node_modules/@tailwindcss/oxide-linux-arm64-gnu/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-gnu-npm-4.0.15-55dadf5fba/node_modules/@tailwindcss/oxide-linux-arm64-gnu/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-linux-arm64-gnu", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-arm64-musl", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-musl-npm-4.0.14-b2d419a90a/node_modules/@tailwindcss/oxide-linux-arm64-musl/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-arm64-musl-npm-4.0.15-6a54f3f0c0/node_modules/@tailwindcss/oxide-linux-arm64-musl/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-linux-arm64-musl", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-x64-gnu", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-gnu-npm-4.0.14-e97c82ccfa/node_modules/@tailwindcss/oxide-linux-x64-gnu/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-gnu-npm-4.0.15-985f4230ca/node_modules/@tailwindcss/oxide-linux-x64-gnu/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-linux-x64-gnu", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-linux-x64-musl", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-musl-npm-4.0.14-d23dc6701b/node_modules/@tailwindcss/oxide-linux-x64-musl/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-linux-x64-musl-npm-4.0.15-4fb79ea348/node_modules/@tailwindcss/oxide-linux-x64-musl/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-linux-x64-musl", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-win32-arm64-msvc", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-arm64-msvc-npm-4.0.14-95bab6a06f/node_modules/@tailwindcss/oxide-win32-arm64-msvc/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-arm64-msvc-npm-4.0.15-5fc5c3b550/node_modules/@tailwindcss/oxide-win32-arm64-msvc/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-win32-arm64-msvc", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/oxide-win32-x64-msvc", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-x64-msvc-npm-4.0.14-3f94eff134/node_modules/@tailwindcss/oxide-win32-x64-msvc/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "./.yarn/unplugged/@tailwindcss-oxide-win32-x64-msvc-npm-4.0.15-c9df3e089b/node_modules/@tailwindcss/oxide-win32-x64-msvc/",\
         "packageDependencies": [\
-          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.0.14"]\
+          ["@tailwindcss/oxide-win32-x64-msvc", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@tailwindcss/vite", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@tailwindcss-vite-npm-4.0.14-c66c9ae40b-10c0.zip/node_modules/@tailwindcss/vite/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@tailwindcss-vite-npm-4.0.15-020a3d3d14-10c0.zip/node_modules/@tailwindcss/vite/",\
         "packageDependencies": [\
-          ["@tailwindcss/vite", "npm:4.0.14"]\
+          ["@tailwindcss/vite", "npm:4.0.15"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.14", {\
-        "packageLocation": "./.yarn/__virtual__/@tailwindcss-vite-virtual-7e54bed600/7/runner/cache/others/berry/cache/@tailwindcss-vite-npm-4.0.14-c66c9ae40b-10c0.zip/node_modules/@tailwindcss/vite/",\
+      ["virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.15", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-vite-virtual-7b64c9bf56/7/runner/cache/others/berry/cache/@tailwindcss-vite-npm-4.0.15-020a3d3d14-10c0.zip/node_modules/@tailwindcss/vite/",\
         "packageDependencies": [\
-          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.14"],\
-          ["@tailwindcss/node", "npm:4.0.14"],\
-          ["@tailwindcss/oxide", "npm:4.0.14"],\
+          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.15"],\
+          ["@tailwindcss/node", "npm:4.0.15"],\
+          ["@tailwindcss/oxide", "npm:4.0.15"],\
           ["@types/vite", null],\
           ["lightningcss", "npm:1.29.2"],\
-          ["tailwindcss", "npm:4.0.14"],\
+          ["tailwindcss", "npm:4.0.15"],\
           ["vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:6.0.11"]\
         ],\
         "packagePeers": [\
@@ -1467,10 +1467,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:22.10.10", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-22.10.10-31182c993e-10c0.zip/node_modules/@types/node/",\
+      ["npm:22.13.10", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-22.13.10-af5336e62b-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:22.10.10"],\
+          ["@types/node", "npm:22.13.10"],\
           ["undici-types", "npm:6.20.0"]\
         ],\
         "linkType": "HARD"\
@@ -3250,9 +3250,9 @@ const RAW_RUNTIME_STATE =
           ["@react-router/dev", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
           ["@react-router/node", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
           ["@react-router/serve", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
-          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.14"],\
+          ["@tailwindcss/vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:4.0.15"],\
           ["@types/gh-pages", "npm:6.1.0"],\
-          ["@types/node", "npm:22.10.10"],\
+          ["@types/node", "npm:22.13.10"],\
           ["@types/react", "npm:19.0.8"],\
           ["@types/react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.3"],\
           ["cross-env", "npm:7.0.3"],\
@@ -3261,7 +3261,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:19.0.0"],\
           ["react-router", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:7.1.3"],\
-          ["tailwindcss", "npm:4.0.14"],\
+          ["tailwindcss", "npm:4.0.15"],\
           ["typescript", "patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"],\
           ["vite", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:6.0.11"],\
           ["vite-tsconfig-paths", "virtual:98d50145a3989d622c526a36994bf0beff458c21bcf40741ecd0594f65eaad7c652b2e45fa021d54d7c9d83bc41c3979fa637c51d962d236489177704b4842f3#npm:5.1.4"]\
@@ -4498,10 +4498,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tailwindcss", [\
-      ["npm:4.0.14", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/tailwindcss-npm-4.0.14-267e68f4fa-10c0.zip/node_modules/tailwindcss/",\
+      ["npm:4.0.15", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/tailwindcss-npm-4.0.15-86b38813bc-10c0.zip/node_modules/tailwindcss/",\
         "packageDependencies": [\
-          ["tailwindcss", "npm:4.0.14"]\
+          ["tailwindcss", "npm:4.0.15"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4847,7 +4847,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jiti", null],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", "npm:22.10.10"],\
+          ["@types/node", "npm:22.13.10"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -5436,7 +5436,7 @@ async function copyImpl(prelayout, postlayout, destinationFs, destination, sourc
 async function maybeLStat(baseFs, p) {
   try {
     return await baseFs.lstatPromise(p);
-  } catch (e) {
+  } catch {
     return null;
   }
 }
@@ -5695,7 +5695,7 @@ class CustomStatWatcher extends events.EventEmitter {
   stat() {
     try {
       return this.fakeFs.statSync(this.path, { bigint: this.bigint });
-    } catch (error) {
+    } catch {
       const statInstance = this.bigint ? new BigIntStatsEntry() : new StatEntry();
       return clearStats(statInstance);
     }
@@ -6021,7 +6021,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = await this.readFilePromise(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -6031,7 +6031,7 @@ class FakeFS {
     let current = ``;
     try {
       current = await this.readFilePromise(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -6049,7 +6049,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = this.readFileSync(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -6059,7 +6059,7 @@ class FakeFS {
     let current = ``;
     try {
       current = this.readFileSync(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -6099,13 +6099,13 @@ class FakeFS {
       let pid;
       try {
         [pid] = await this.readJsonPromise(lockPath);
-      } catch (error) {
+      } catch {
         return Date.now() - startTime < 500;
       }
       try {
         process.kill(pid, 0);
         return true;
-      } catch (error) {
+      } catch {
         return false;
       }
     };
@@ -6118,7 +6118,7 @@ class FakeFS {
             try {
               await this.unlinkPromise(lockPath);
               continue;
-            } catch (error2) {
+            } catch {
             }
           }
           if (Date.now() - startTime < 60 * 1e3) {
@@ -6138,7 +6138,7 @@ class FakeFS {
       try {
         await this.closePromise(fd);
         await this.unlinkPromise(lockPath);
-      } catch (error) {
+      } catch {
       }
     }
   }
@@ -7288,7 +7288,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = await sourceFs.readFilePromise(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       await destFs.writeFilePromise(destP2, content);
@@ -7320,7 +7320,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = sourceFs.readFileSync(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       destFs.writeFileSync(destP2, content);
@@ -8235,7 +8235,7 @@ function patchFs(patchedFs, fakeFs) {
     setupFn(patchedFs, `existsSync`, (p) => {
       try {
         return fakeFs.existsSync(p);
-      } catch (error) {
+      } catch {
         return false;
       }
     });
@@ -9596,7 +9596,7 @@ class ZipFS extends BasePortableFakeFS {
     let resolvedP;
     try {
       resolvedP = this.resolveFilename(`stat '${p}'`, p, void 0, false);
-    } catch (error) {
+    } catch {
       return false;
     }
     if (resolvedP === void 0)
@@ -10637,7 +10637,7 @@ Require stack:
         } else {
           resolution = originalFindPath.call(require$$0.Module, request, [path], isMain);
         }
-      } catch (error) {
+      } catch {
         continue;
       }
       if (resolution) {
@@ -11720,7 +11720,7 @@ function makeApi(runtimeState, opts) {
     try {
       candidates.push(unqualifiedPath);
       stat = opts.fakeFs.statSync(unqualifiedPath);
-    } catch (error) {
+    } catch {
     }
     if (stat && !stat.isDirectory())
       return opts.fakeFs.realpathSync(unqualifiedPath);
@@ -11728,7 +11728,7 @@ function makeApi(runtimeState, opts) {
       let pkgJson;
       try {
         pkgJson = JSON.parse(opts.fakeFs.readFileSync(ppath.join(unqualifiedPath, Filename.manifest), `utf8`));
-      } catch (error) {
+      } catch {
       }
       let nextUnqualifiedPath;
       if (pkgJson && pkgJson.main)
