@@ -2367,10 +2367,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isbot@npm:5.1.21":
-  version: 5.1.21
-  resolution: "isbot@npm:5.1.21"
-  checksum: 10c0/242229272e85cae0bd6194743e88a390b7010ce7b7a39d32c589d3d4d60cb9da81edd61206cc11edf2f180953a5f9f82cb0d37ce4e0cf1b954da2697387dba0a
+"isbot@npm:5.1.25":
+  version: 5.1.25
+  resolution: "isbot@npm:5.1.25"
+  checksum: 10c0/e3ad2c4a77ea358723385345e8f3d0a39f1b20fb9095b55c96b8850ce7270633ae08c6afe81963af7c89a12a94637d612a1e8c8d2061f8bceb4ebe573549a425
   languageName: node
   linkType: hard
 
@@ -2697,7 +2697,7 @@ __metadata:
     "@types/react-dom": "npm:19.0.3"
     cross-env: "npm:7.0.3"
     gh-pages: "npm:6.3.0"
-    isbot: "npm:5.1.21"
+    isbot: "npm:5.1.25"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
     react-router: "npm:7.1.3"
