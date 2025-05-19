@@ -4,13 +4,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-        - name: Checkout code
-            uses: actions/checkout@v4
-        - name: Set up Nodejs
-            uses: actions/setup-node@v4
-            with:
-                node-version: '22.x'
-        - name: Install dependencies
-            run: yarn install
-        - name: Run tests
-            run: yarn test
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.x"
+      - name: Install dependencies
+        run: yarn install
+      - name: Run tests
+        run: yarn test
