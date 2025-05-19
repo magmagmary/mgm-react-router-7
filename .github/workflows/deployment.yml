@@ -47,6 +47,13 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Get build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifacts
+
+      - name: Display build artifacts
+        run: ls
       - name: Deploy to production
         run: |
           echo "Deploying to production..."
