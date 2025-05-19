@@ -35,14 +35,15 @@ const Products = () => {
 
 			<div className="grid grid-cols-5">
 				{products.map((product) => (
-					<div
+					<button
+						type="button"
 						key={product.id}
 						className="bg-slate-400 p-5 m-5 text-center cursor-pointer"
 						onClick={() => navigate(`/products/info/${product.id}`)}
 					>
 						<h2 className="text-xl font-bold">{product.name}</h2>
 						<p className="text-lg">${product.price}</p>
-					</div>
+					</button>
 				))}
 			</div>
 
