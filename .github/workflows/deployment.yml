@@ -19,23 +19,21 @@ jobs:
           node-version: "22.x"
       - name: Install dependencies
         run: yarn install
-      - name: Run tests
-        run: yarn test
       - name: Run linter
         run: yarn lint
-  deploy:
+      - name: Run tests
+        run: yarn test
+  build:
     needs: test
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Set up Nodejs
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22.x"
-      - name: Install dependencies
-        run: yarn install
       - name: Build project
         run: yarn build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to production
-        run: echo "Deploying to production..."
+        run: |
+          echo "Deploying to production..."
