@@ -25,12 +25,13 @@ const Products = () => {
 
 	return (
 		<div className="bg-slate-300 h-svh w-svw p-10">
-			<h1
+			<button
 				className="text-3xl pb-5 border-b border-b-slate-600 cursor-pointer"
+				type="button"
 				onClick={() => navigate("/products")}
 			>
 				Products
-			</h1>
+			</button>
 
 			<div className="grid grid-cols-5">
 				{products.map((product) => (
