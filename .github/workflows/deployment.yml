@@ -72,6 +72,7 @@ jobs:
         with:
           name: test-artifacts
           path: package.json
+
   build:
     needs: test
     runs-on: ubuntu-latest
@@ -117,3 +118,13 @@ jobs:
       - name: Deploy to production
         run: |
           echo "Deploying to production..."
+
+  report:
+    needs: ["test"]
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display error message
+        run: |
+          echo "The tests failed. Please check the logs for more details."
+          exit 1
