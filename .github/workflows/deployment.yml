@@ -7,8 +7,20 @@ on:
     branches:
       - main
   workflow_dispatch:
+
+env:
+  VITE_API_KEY: myProductionKey
+
 jobs:
+  variable_check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check environment variable
+        run: echo "VITE_API_KEY is set to $VITE_API_KEY"
+
   test:
+    env:
+      VITE_JOB_ID: 123
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

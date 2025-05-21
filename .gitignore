@@ -8,3 +8,6 @@
 # yarn cache files
 .yarn/cache/
 .yarn/unplugged/
+
+# dotenv environment variables file
+*.local

@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet, Link } from "react-router";
 
 const AppLayout = () => {
+	console.log("AppLayout");
 	return (
 		<div className="h-svh w-svw bg-bg-slate-300">
 			<nav className="bg-white p-5 flex gap-5">
