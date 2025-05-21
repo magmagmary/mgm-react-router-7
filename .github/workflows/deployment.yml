@@ -10,6 +10,7 @@ on:
 
 env:
   VITE_API_KEY: myProductionKey
+  VITE_SENSITIVE_DATA: ${{ secrets.VITE_SENSITIVE_DATA }}
 
 jobs:
   variable_check:
@@ -17,6 +18,8 @@ jobs:
     steps:
       - name: Check environment variable
         run: echo "VITE_API_KEY is set to $VITE_API_KEY"
+      - name: Check sensitive data
+        run: echo "VITE_SENSITIVE_DATA is set to $VITE_SENSITIVE_DATA"
 
   test:
     env:
