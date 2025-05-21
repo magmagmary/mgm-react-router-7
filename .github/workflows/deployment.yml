@@ -20,6 +20,15 @@ jobs:
         run: echo "VITE_API_KEY is set to $VITE_API_KEY"
       - name: Check sensitive data
         run: echo "VITE_SENSITIVE_DATA is set to $VITE_SENSITIVE_DATA"
+      - name: check staging environment variable
+        run: echo "VITE_STAGING_ENV_VARIABLE is set to $VITE_STAGING_ENV_VARIABLE"
+
+  staging_variable_check:
+    environment: staging
+    runs-on: ubuntu-latest
+    steps:
+      - name: check staging environment variable
+        run: echo "VITE_STAGING_ENV_VARIABLE is set to $VITE_STAGING_ENV_VARIABLE"
 
   test:
     env:
