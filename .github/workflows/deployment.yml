@@ -23,6 +23,8 @@ jobs:
       VITE_JOB_ID: 123
     runs-on: ubuntu-latest
     steps:
+      - name: Check environment variable
+        run: echo "VITE_JOB_ID is set to $VITE_JOB_ID"
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Cache node modules
@@ -48,6 +50,8 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
+      - name: Check environment variable
+        run: echo "VITE_JOB_ID is set to $VITE_JOB_ID"
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Cache node modules
