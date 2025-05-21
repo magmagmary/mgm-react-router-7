@@ -14,6 +14,9 @@ env:
 
 jobs:
   variable_check:
+    env:
+      VITE_STAGING_ENV_VARIABLE: ${{ secrets.VITE_STAGING_ENV_VARIABLE }}
+
     runs-on: ubuntu-latest
     steps:
       - name: Check environment variable
@@ -25,6 +28,8 @@ jobs:
 
   staging_variable_check:
     environment: staging
+    env:
+      VITE_STAGING_ENV_VARIABLE: ${{ secrets.VITE_STAGING_ENV_VARIABLE }}
     runs-on: ubuntu-latest
     steps:
       - name: check staging environment variable
