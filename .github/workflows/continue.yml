@@ -1,10 +1,5 @@
 name: Continue Workflow
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-
+on:  workflow_dispatch
 jobs:
   lint:
     runs-on: ubuntu-latest
