@@ -1,5 +1,12 @@
 name: Test
-on: workflow_call
+on:
+  workflow_call:
+    inputs:
+      continue:
+        description: "Continue the workflow when errors are encountered"
+        required: false
+        default: false
+        type: boolean
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -24,6 +31,6 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install
       - name: Run tests
-        continue-on-error: true
+        continue-on-error: ${{ inputs.continue }}
         id: run-tests
         run: yarn test
