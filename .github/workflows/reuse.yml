@@ -1,4 +1,4 @@
-name: Continue Workflow
+name: Reuse Workflow
 on: workflow_dispatch
 jobs:
   lint:
