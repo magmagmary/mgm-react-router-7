@@ -1,11 +1,6 @@
 name: build
 on:
   workflow_call:
-    inputs:
-      reqiured_steps:
-        description: "Required steps to run before build"
-        required: false
-        type: string
     outputs:
       build_artifacts:
         description: "Build artifacts from the build job"

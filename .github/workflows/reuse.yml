@@ -10,9 +10,8 @@ jobs:
       continue: false
 
   build:
+    needs: [lint, test]
     uses: ./.github/workflows/build.yml
-    with:
-      reqiured_steps: "lint,test"
 
   print-deploy-result:
     runs-on: ubuntu-latest
