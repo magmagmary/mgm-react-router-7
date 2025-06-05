@@ -13,3 +13,10 @@ jobs:
     uses: ./.github/workflows/build.yml
     with:
       reqiured_steps: "lint,test"
+
+  print-deploy-result:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Print build artifacts
+        run: echo "Build atrifact is ${{needs.build.outputs.build_artifacts}}"

@@ -6,9 +6,15 @@ on:
         description: "Required steps to run before build"
         required: false
         type: string
+    outputs:
+      build_artifacts:
+        description: "Build artifacts from the build job"
+        value: ${{jobs.build.outputs.outcome}}
 
 jobs:
   build:
+    outputs:
+      outcome: ${{ steps.set_output.outputs.build_artifacts }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -32,3 +38,11 @@ jobs:
         run: yarn install
       - name: Build project
         run: yarn build
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifacts
+          path: build
+      - name: Set output
+        id: set_output
+        run: echo "::set-output name=build_artifacts::build"
