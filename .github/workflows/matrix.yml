@@ -1,0 +1,20 @@
+name: Matrix Workflow
+on: workflow_dispatch
+jobs:
+  build:
+    strategy:
+      matrix:
+        node-version: [22.16.0, 20.19.1, 18.17.1]
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install dependencies
+        run: yarn install
+      - name: Run build
+        run: yarn build
