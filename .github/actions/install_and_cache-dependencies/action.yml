@@ -2,10 +2,18 @@ name: install and cache dependencies
 description: |
   This action installs and caches dependencies for a Node.js project using Yarn.
 
+inputs:
+  node_install:
+    description: "whether to install node js"
+    required: false
+    default: true
+    type: boolean
+
 runs:
   using: "composite"
   steps:
     - name: Set up Nodejs
+      if: ${{ inputs.node_install == 'true' }}
       uses: actions/setup-node@v4
       with:
         node-version: "22.16.0"
