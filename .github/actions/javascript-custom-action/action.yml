@@ -3,5 +3,5 @@ description: |
   This action runs a custom JavaScript script.
 
 runs:
-uses: "node22"
-main: "main.js"
+  using: "node22"
+  main: "main.js"
