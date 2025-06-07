@@ -3,6 +3,9 @@ on: workflow_call
 jobs:
   lint:
     runs-on: ubuntu-latest
+    container:
+      image: node:22
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
