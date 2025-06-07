@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: install dependencies
-        uses: ./github/actions/install_and_cache-dependencies
+        uses: ./.github/actions/install_and_cache-dependencies
       - name: Run tests
         continue-on-error: ${{ inputs.continue }}
         id: run-tests
