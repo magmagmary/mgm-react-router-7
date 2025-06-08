@@ -111,7 +111,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment: staging
+    environment: AWS
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -123,9 +123,7 @@ jobs:
       - name: Display build artifacts
         run: ls
       - name: Check AWS credentials
-        env:
-          VITE_STAGING_ENV_VARIABLE: ${{ secrets.VITE_STAGING_ENV_VARIABLE }}
-        run: echo "VITE_STAGING_ENV_VARIABLE is set to $VITE_STAGING_ENV_VARIABLE"
+        run: echo "secrets.AWS_ACCESS_KEY_ID is set to ${{ secrets.AWS_ACCESS_KEY_ID }}"
       - name: Deploy to production
         env:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
