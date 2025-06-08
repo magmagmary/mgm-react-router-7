@@ -10,5 +10,3 @@ jobs:
         run: echo "Hello World"
       - name: print goodby
         run: echo "Goodbye"
-      - name: Run custom JV action
-        uses: ./.github/actions/javascript-custom-action
