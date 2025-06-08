@@ -124,7 +124,7 @@ jobs:
       - name: Check AWS credentials
         env:
           VITE_STAGING_ENV_VARIABLE: ${{ secrets.VITE_STAGING_ENV_VARIABLE }}
-         run: echo "VITE_STAGING_ENV_VARIABLE is set to $VITE_STAGING_ENV_VARIABLE"
+        run: echo "VITE_STAGING_ENV_VARIABLE is set to $VITE_STAGING_ENV_VARIABLE"
       - name: Deploy to production
         env:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
