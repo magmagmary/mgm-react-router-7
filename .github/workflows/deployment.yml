@@ -125,6 +125,7 @@ jobs:
       - name: Check AWS credentials
         run: echo "secrets.AWS_ACCESS_KEY_ID is set to ${{ secrets.AWS_ACCESS_KEY_ID }}"
       - name: Deploy to production
+        id: deploy
         env:
           AWS_ACCESS_KEY_ID : ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -132,6 +133,8 @@ jobs:
         with:
           bucket: mgm-react-router-7
           dist-folder: ./build
+      - name: Notify deployment
+        run: echo "Deployment to production completed successfully on ${{ steps.deploy.outputs.website-url }}"
 
   report:
     needs: ["test"]

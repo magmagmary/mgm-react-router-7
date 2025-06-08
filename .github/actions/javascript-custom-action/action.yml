@@ -15,6 +15,9 @@ inputs:
     description: "The folder to upload to the S3 bucket"
     required: true
     type: string
+  outputs:
+    website-url:
+      description: "The URL of the deployed website"
 
 runs:
   using: "node20"

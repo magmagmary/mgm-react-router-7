@@ -21,7 +21,9 @@ const exec = require('@actions/exec');
         bucketRegion,
         '--delete',
     ]).then(() => {
-        core.info(`Successfully synced ${distFolder} to s3://${bucketName}`);
+        const url = `https://${bucketName}.s3-website.${bucketRegion}.amazonaws.com`;
+        core.setOutput('website-url', url);
+        core.info(`Successfully synced to S3 bucket: ${bucketName}`);
     }).catch((error) => {
         core.setFailed(`Failed to sync to S3: ${error.message}`);
     });
