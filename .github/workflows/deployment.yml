@@ -131,7 +131,6 @@ jobs:
         uses: ./.github/actions/javascript-custom-action
         with:
           bucket: mgm-react-router-7
-          region: us-east-1
           dist-folder: ./build
 
   report:
