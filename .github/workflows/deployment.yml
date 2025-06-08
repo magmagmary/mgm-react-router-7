@@ -121,6 +121,8 @@ jobs:
           path: ./build
       - name: Display build artifacts
         run: ls
+      - name: Check AWS credentials
+        run: "echo 'AWS credentials are set' && echo ${{ secrets.AWS_ACCESS_KEY_ID }} && echo ${{ secrets.AWS_SECRET_ACCESS_KEY }}"
       - name: Deploy to production
         env:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
