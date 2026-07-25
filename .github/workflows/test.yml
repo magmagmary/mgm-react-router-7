@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.4.0
       - name: install dependencies
         uses: ./.github/actions/install_and_cache-dependencies
         with:
